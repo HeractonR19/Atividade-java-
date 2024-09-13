@@ -40,8 +40,7 @@ public class Conta {
     public double getSaldo() {
         return saldo;
     }
-
-    // Métodos de transação
+    
     public void depositar(double valor) {
         if (valor > 0) {
             saldo += valor;
